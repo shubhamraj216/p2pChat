@@ -1,0 +1,60 @@
+body {
+  font-family: sans-serif;
+  overflow: hidden;
+}
+
+div {
+  left: 0;
+  right: 0;
+}
+
+.move {
+  height: 100%;
+  overflow-y: scroll;
+  padding-left: 40px;
+}
+
+.top {
+  top: 15%;
+  height: 60%;
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+.bottom {
+  height: 25%; 
+  bottom:0%;
+  width:100%; 
+  background-color: #55f335; 
+  opacity: 1;
+  position: absolute;
+  left: 0;
+  right: 0;
+  padding: 2rem;
+  overflow-x: hidden;
+  display: inline-block;
+}
+
+.scroll::-webkit-scrollbar {
+  width: 1px;
+}
+
+.scroll::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+  box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+  border-radius: 10px;
+}
+
+.scroll::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+  box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+
+textarea {
+  resize: none;
+}
+
+button {
+  width: 100%;
+}
